@@ -67,9 +67,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="altaarticulos.aspx" />
+    <Content Include="altarubros.aspx" />
+    <Content Include="bajararticulos.aspx" />
+    <Content Include="consultaarticulos.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="modificacionarticulos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="altaarticulos.aspx.cs">
+      <DependentUpon>altaarticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="altaarticulos.aspx.designer.cs">
+      <DependentUpon>altaarticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="altarubros.aspx.cs">
+      <DependentUpon>altarubros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="altarubros.aspx.designer.cs">
+      <DependentUpon>altarubros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bajararticulos.aspx.cs">
+      <DependentUpon>bajararticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bajararticulos.aspx.designer.cs">
+      <DependentUpon>bajararticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consultaarticulos.aspx.cs">
+      <DependentUpon>consultaarticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consultaarticulos.aspx.designer.cs">
+      <DependentUpon>consultaarticulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modificacionarticulos.aspx.cs">
+      <DependentUpon>modificacionarticulos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificacionarticulos.aspx.designer.cs">
+      <DependentUpon>modificacionarticulos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
